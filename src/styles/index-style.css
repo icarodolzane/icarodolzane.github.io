@@ -94,6 +94,10 @@ header{
   
 }
 
+#name{
+  font-size: 2em;
+}
+
 #personal-info > h2{
   margin-top: 20px;
   font-family: roboto;
@@ -186,15 +190,22 @@ header{
   text-align: center;
   background-color: dimgrey;
   border-radius: 10px; 
-  background-color:#967D85 ; 
+  background-color:#967D85 ;
+    
+}
 
+#projects div :hover{
+  font-weight: bolder;
+  cursor: pointer;
 }
 
 #projects h2{
   width: 100%;
   margin-top: 10px;
   text-align: center;
-  font-family: 'Montserrat', sans-serif; 
+  font-family: 'Montserrat', sans-serif;
+  font-weight:500;
+  
 
 }
 
